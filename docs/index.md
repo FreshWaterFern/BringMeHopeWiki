@@ -32,6 +32,10 @@ Welcome to the community wiki for **Bring Me Hope**.
 
     Your core moves, the kick-off, and the skills you unlock by leveling up.
 
+- :material-history: **[Development History](development-history.md)**
+
+    How a one-person, decade-long game has come together, year by year.
+
 </div>
 
 ## Contributing

@@ -1,7 +1,7 @@
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
 # Items
 
-Items you can find in the loot pool. 72 in total. Click a column header to sort, or click an item name for its full page.
+Items you can find in the loot pool. 74 in total. Click a column header to sort, or click an item name for its full page.
 
 | Icon | Name | Grade | Slot | Version | Description |
 |---|---|---|---|---|---|
@@ -42,6 +42,7 @@ Items you can find in the loot pool. 72 in total. Click a column header to sort,
 | ![](../assets/icons/ironundies.png){ .item-icon-sm } | [Iron Undies](ironundies.md) | <span class="grade grade-exceptional">Exceptional</span> | Waist | 0.0.0 | Increases physical resistance by 25% |
 | ![](../assets/icons/knightsshoulderarmorpad.png){ .item-icon-sm } | [Knight's Shoulder Armor Pad](knightsshoulderarmorpad.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.0.0 | Increases physical resistance by 15% |
 | ![](../assets/icons/knittedmitten.png){ .item-icon-sm } | [Knitted Mitten](knittedmitten.md) | <span class="grade grade-ordinary">Ordinary</span> | Hands | 0.0.0 | Immunity to freezing |
+| ![](../assets/icons/lastchancelocket.png){ .item-icon-sm } | [Last Chance Locket](lastchancelocket.md) | <span class="grade grade-exotic">Exotic</span> | Chest | 0.5.11 | Once per room, cheat death and revive with 10 health. |
 | ![](../assets/icons/lensenhancer.png){ .item-icon-sm } | [Lens Enhancer](lensenhancer.md) | <span class="grade grade-ordinary">Ordinary</span> | Waist | 0.0.0 | Increases magical damage by 15% |
 | ![](../assets/icons/lifeborrower.png){ .item-icon-sm } | [Life Borrower](lifeborrower.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.0.0 | Parrying an enemy steals 2 health |
 | ![](../assets/icons/lifestealer.png){ .item-icon-sm } | [Life Stealer](lifestealer.md) | <span class="grade grade-remarkable">Remarkable</span> | Hands | 0.0.0 | Punching an enemy steals 0.5 health |
@@ -77,4 +78,5 @@ Items you can find in the loot pool. 72 in total. Click a column header to sort,
 | ![](../assets/icons/vulnerabilitysceptor.png){ .item-icon-sm } | [Vulnerability Sceptor](vulnerabilitysceptor.md) | <span class="grade grade-remarkable">Remarkable</span> | Hands | 0.0.0 | Reduces magical resistance of enemies by 25% within a 3 meter radius |
 | ![](../assets/icons/waterbubble.png){ .item-icon-sm } | [Water Bubble](waterbubble.md) | <span class="grade grade-ordinary">Ordinary</span> | Chest | 0.0.0 | When dashing, water will be placed on the ground beneath you |
 | ![](../assets/icons/windenergizer.png){ .item-icon-sm } | [Wind Energizer](windenergizer.md) | <span class="grade grade-ordinary">Ordinary</span> | Waist | 0.0.0 | Knockback distance for punches is increased by 25% |
+| ![](../assets/icons/winnersdice.png){ .item-icon-sm } | [Winner's Dice](winnersdice.md) | <span class="grade grade-striking">Striking</span> | Waist | 0.5.11 | Increases the amount of gems dropped by enemies by 20% |
 <!-- AUTOGEN:END -->
