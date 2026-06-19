@@ -36,6 +36,10 @@ Welcome to the community wiki for **Bring Me Hope**.
 
     How a one-person, decade-long game has come together, year by year.
 
+- :material-update: **[Game Versions](game-versions.md)**
+
+    Patch notes for every update, linked to the Steam announcements.
+
 </div>
 
 ## Get the game and follow along

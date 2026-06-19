@@ -3,6 +3,8 @@ name: Deploy wiki
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "0 9 * * *"   # daily, to pick up new Steam announcements
   workflow_dispatch:
 
 permissions:
@@ -25,6 +27,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - run: python tools/fetch_steam_news.py
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
