@@ -38,6 +38,13 @@ Welcome to the community wiki for **Bring Me Hope**.
 
 </div>
 
+## Get the game and follow along
+
+- [Bring Me Hope on Steam](https://store.steampowered.com/app/1493290/Bring_Me_Hope/)
+- [Bring Me Hope on itch.io](https://freshwaterfern.itch.io/bring-me-hope)
+- [Fern's devlogs at fernmakesgames.com](https://www.fernmakesgames.com/blog)
+- [YouTube](https://www.youtube.com/@FreshWaterFern) and [Twitch](https://www.twitch.tv/freshwaterfern)
+
 ## Contributing
 
 This wiki is open to the community. See a mistake or want to add strategy tips,

@@ -56,3 +56,22 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+  - javascripts/home-link.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/steam
+      link: https://store.steampowered.com/app/1493290/Bring_Me_Hope/
+      name: Bring Me Hope on Steam
+    - icon: simple/itchdotio
+      link: https://freshwaterfern.itch.io/bring-me-hope
+      name: Bring Me Hope on itch.io
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@FreshWaterFern
+      name: YouTube
+    - icon: fontawesome/brands/twitch
+      link: https://www.twitch.tv/freshwaterfern
+      name: Twitch
+    - icon: fontawesome/solid/globe
+      link: https://www.fernmakesgames.com
+      name: fernmakesgames.com
