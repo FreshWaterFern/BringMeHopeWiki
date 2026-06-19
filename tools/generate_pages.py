@@ -413,7 +413,7 @@ def main() -> None:
 
     for cat, (folder, title, blurb) in CATEGORIES.items():
         rows = sorted(by_cat[cat], key=lambda it: it["name"].lower())
-        write_category_index(DOCS / folder / "index.md", title, blurb, rows)
+        write_category_index(DOCS / folder / "index.md", title, blurb, rows, cat)
     write_levels(game)
 
     print(f"items: {total} pages "
@@ -425,21 +425,29 @@ def main() -> None:
 
 
 def write_category_index(path: Path, title: str, blurb: str,
-                         items: list[dict]) -> None:
+                         items: list[dict], cat: str) -> None:
+    # Key items are all grade "Key" and have no equip slot, so those two
+    # columns are dropped for that category.
+    full = cat != "key"
+    header = ("| Icon | Name | Grade | Slot | Version | Description |"
+              if full else "| Icon | Name | Version | Description |")
+    sep = "|---|---|---|---|---|---|" if full else "|---|---|---|---|"
     rows = [f"# {title}", "",
             f"{blurb} {len(items)} in total. Click a column header to sort, "
             "or click an item name for its full page.", "",
-            "| Icon | Name | Grade | Slot | Version | Description |",
-            "|---|---|---|---|---|---|"]
+            header, sep]
     for it in items:
         icon = (f'![](../assets/icons/{it["key"]}.png){{ .item-icon-sm }}'
                 if it["_icon"] else "")
         name = f'[{it["name"]}]({it["key"]}.md)'
-        slot_display = "N/A" if it["is_key"] else it["slot"]
-        rows.append(
-            f'| {icon} | {name} | {grade_span(it["grade"])} | {slot_display} '
-            f'| {it["version"]} | {it["_desc"]} |'
-        )
+        if full:
+            slot_display = "N/A" if it["is_key"] else it["slot"]
+            rows.append(
+                f'| {icon} | {name} | {grade_span(it["grade"])} | {slot_display} '
+                f'| {it["version"]} | {it["_desc"]} |'
+            )
+        else:
+            rows.append(f'| {icon} | {name} | {it["version"]} | {it["_desc"]} |')
     block = "\n".join(rows)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
