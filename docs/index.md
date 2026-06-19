@@ -24,6 +24,10 @@ Welcome to the community wiki for **Bring Me Hope**.
 
     Every fluid in the game, what it does to you, and what creates it.
 
+- :material-content-save-outline: **[Level Persistence](level-persistence.md)**
+
+    What a room remembers when you leave it, and what resets.
+
 </div>
 
 ## Contributing
