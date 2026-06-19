@@ -28,6 +28,10 @@ Welcome to the community wiki for **Bring Me Hope**.
 
     What a room remembers when you leave it, and what resets.
 
+- :material-run-fast: **[Player Abilities](player-abilities.md)**
+
+    Your core moves, the kick-off, and the skills you unlock by leveling up.
+
 </div>
 
 ## Contributing
