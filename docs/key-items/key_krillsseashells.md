@@ -7,8 +7,10 @@
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
 | Max stack | 1 |
-| Added in version | Unknown |
+| Added in version | 0.0.0 |
 | Save id | `key_krillsseashells` |
+
+**In-game description:** Krill's seashells that they have scattered around the beach.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes
