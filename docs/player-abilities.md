@@ -21,18 +21,22 @@ button.
 
 ## Kick Off: dashing off walls and enemies
 
-Once you have the **Kick Off** skill, dashing into a wall or an enemy no longer stops
-you. Instead you **kick off** of it and launch straight into a fresh dash.
+Normally a dash carries you **straight through** enemies. The **Kick Off** skill lets you
+treat an enemy like a wall instead: while you are dashing into one, change your direction
+and dash to **kick off** of it and launch a brand new dash the way you are now aiming.
 
-- You shoot off in the direction you are aiming, at a strong speed boost (around 1.7x a
-  normal dash) with a brief freeze on impact for weight.
-- Kicking off an **enemy** also briefly freezes that enemy in place, so it doubles as a
-  way to interrupt them.
-- You can **chain** kick-offs across different walls and enemies to keep your momentum
-  going and cross a room in a few hops.
-- You cannot kick off the **same** target twice in a row. The game remembers the last
-  thing you kicked off for a moment, so you need a different wall or enemy to keep the
-  chain going.
+- It works on both **walls** and **enemies**. Either way you push off and fire into a
+  fresh dash in your new direction.
+- To trigger it you have to swing your direction at least a quarter turn (about 90 degrees
+  or more) away from the way you were heading. A gentle curve will not do it, you have to
+  redirect sharply.
+- The new dash comes out with a speed boost (around 1.7x a normal dash) and a short
+  hit-stop on contact for impact.
+- You can **chain** kick-offs across walls and enemies to keep your momentum going and
+  cross a room in a few hops.
+- You cannot kick off the **same enemy** twice in quick succession (there is a short
+  per-enemy cooldown), so chaining off enemies means bouncing between different targets.
+  Walls have no such limit.
 
 Kick Off pairs well with anything that raises your dash speed, and with the fluid dash
 skills below for crossing hazards at full momentum.
