@@ -20,6 +20,10 @@ Welcome to the community wiki for **Bring Me Hope**.
 
     The areas of the world, their rooms, enemies, and secrets.
 
+- :material-water: **[Fluids](fluids.md)**
+
+    Every fluid in the game, what it does to you, and what creates it.
+
 </div>
 
 ## Contributing
