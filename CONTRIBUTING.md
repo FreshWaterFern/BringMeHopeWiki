@@ -6,7 +6,7 @@ maintainer reviews and merges.
 ## The easy way (in your browser)
 
 1. Open the page you want to improve on the
-   [live wiki](https://freshwaterfern.github.io/Bring-Me-Hope-Wiki/).
+   [live wiki](https://freshwaterfern.github.io/BringMeHopeWiki/).
 2. Click the **edit pencil** in the top-right.
 3. GitHub forks the repo for you and opens the Markdown editor.
 4. Make your change, then **Propose changes** → **Create pull request**.

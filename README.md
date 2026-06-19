@@ -1,6 +1,6 @@
 # Bring Me Hope Wiki
 
-Source for the [Bring Me Hope wiki](https://freshwaterfern.github.io/Bring-Me-Hope-Wiki/),
+Source for the [Bring Me Hope wiki](https://freshwaterfern.github.io/BringMeHopeWiki/),
 built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and
 published free on GitHub Pages.
 

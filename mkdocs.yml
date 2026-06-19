@@ -1,9 +1,9 @@
 site_name: Bring Me Hope Wiki
 site_description: The community wiki for Bring Me Hope — items, levels, and more.
-site_url: https://freshwaterfern.github.io/Bring-Me-Hope-Wiki/
+site_url: https://freshwaterfern.github.io/BringMeHopeWiki/
 
-repo_url: https://github.com/FreshWaterFern/Bring-Me-Hope-Wiki
-repo_name: FreshWaterFern/Bring-Me-Hope-Wiki
+repo_url: https://github.com/FreshWaterFern/BringMeHopeWiki
+repo_name: FreshWaterFern/BringMeHopeWiki
 edit_uri: edit/main/docs/
 
 theme:
