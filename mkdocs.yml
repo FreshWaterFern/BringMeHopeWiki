@@ -1,0 +1,55 @@
+site_name: Bring Me Hope Wiki
+site_description: The community wiki for Bring Me Hope — items, levels, and more.
+site_url: https://freshwaterfern.github.io/Bring-Me-Hope-Wiki/
+
+repo_url: https://github.com/FreshWaterFern/Bring-Me-Hope-Wiki
+repo_name: FreshWaterFern/Bring-Me-Hope-Wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.3.0/tablesort.min.js
+  - javascripts/tablesort.js

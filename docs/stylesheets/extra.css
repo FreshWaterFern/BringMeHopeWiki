@@ -1,0 +1,32 @@
+/* Pixel-art icons: scale crisply, never blurry. */
+.item-icon {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  float: right;
+  margin: 0 0 0.5rem 1rem;
+}
+.item-icon-sm {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  vertical-align: middle;
+}
+
+/* Item grade colour coding. */
+.grade {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.grade-ordinary    { color: #9aa0a6; }
+.grade-striking    { color: #4caf50; }
+.grade-remarkable  { color: #2196f3; }
+.grade-exceptional { color: #9c27b0; }
+.grade-exotic      { color: #ff9800; }
+.grade-chaos       { color: #f44336; }
+.grade-key         { color: #00bcd4; }
+
+/* Tighten the master item table a touch. */
+.md-typeset table:not([class]) th { white-space: nowrap; }
