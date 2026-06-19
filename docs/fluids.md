@@ -9,6 +9,11 @@ effect first lands. Anything with fluid immunity ignores all of them.
 These are the fluids defined in the game (the `FluidData` enum). `Blocked`, `Empty`,
 and `Size` are internal markers, not real fluids.
 
+!!! warning "Not in the game yet"
+    **Ghoul Broth**, **Frozen Oil**, and the six **Paints** are defined in the game's
+    code but currently have no working way to be created, so you will not run into them
+    in normal play yet. They are documented here for completeness.
+
 ## Effects at a glance
 
 | Fluid | What it does to you |
@@ -16,10 +21,10 @@ and `Size` are internal markers, not real fluids.
 | **Water** | Makes you **Wet** for about 2 seconds. While wet, fire is put out and you can be frozen. |
 | **Ice** | Very slippery (friction x0.3). Puts fire out. **Freezes** you if you are Wet. |
 | **Oil** | Slightly slippery (friction x0.8). Coats you in **Oil**, which is flammable. |
-| **Frozen Oil** | Extremely slippery (friction x0.2). **Freezes** you if you are Wet. |
+| **Frozen Oil** _(not in the game yet)_ | Extremely slippery (friction x0.2). **Freezes** you if you are Wet. |
 | **Poison** | **Poisons** you (damage over time). |
-| **Ghoul Broth** | **Heals** you: grants health regeneration while you stand in it. Flammable. |
-| **Paint** (Blue, Red, Yellow, Green, Purple, Orange) | **Slows** your movement by 30%. The six colors behave the same in combat. |
+| **Ghoul Broth** _(not in the game yet)_ | **Heals** you: grants health regeneration while you stand in it. Flammable. |
+| **Paint** (Blue, Red, Yellow, Green, Purple, Orange) _(not in the game yet)_ | **Slows** your movement by 30%. The six colors behave the same in combat. |
 
 ## How fluids interact
 
@@ -51,16 +56,17 @@ bosses, and breakable props), which do not have their own pages yet.
 - **Objects**: Ice Slug (`obj_iceslug`), the Soul of Ice effect freezing water (`obj_effect_soulofice`), frosted grass (`par_grass`), and ice fluid props (`obj_prop_fluid_ice_3x3`).
 
 ### Frozen Oil
-- **Items**: none directly.
-- **Objects**: the Soul of Ice effect freezing oil (`obj_effect_soulofice`).
+_Not in the game yet._ Frozen Oil exists in the code (it is oil that has been frozen),
+but there is currently no working way to create it in game. The freezing logic lives in
+`obj_effect_soulofice`.
 
 ### Ghoul Broth
-- **Items**: none.
-- **Objects**: placed in the world by level design through fluid props (`obj_prop_fluid_1x1`), mostly in ghoul areas.
+_Not in the game yet._ Ghoul Broth exists in the code but currently has no working way to
+be created in game.
 
 ### Paints (Blue, Red, Yellow, Green, Purple, Orange)
-- **Items**: none.
-- **Objects**: placed in the world by level design through fluid props. Used mainly for color puzzles and decoration.
+_Not in the game yet._ The six paints exist in the code but currently have no working way
+to be created in game.
 
 ## Resisting fluids
 
