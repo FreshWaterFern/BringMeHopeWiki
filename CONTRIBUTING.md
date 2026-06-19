@@ -16,9 +16,9 @@ a minute or two.
 
 ## What you can edit
 
-- ✅ The **Strategy & Notes** section on any item page — tips, synergies, builds,
+- ✅ The **Strategy & Notes** section on any item page: tips, synergies, builds,
   lore.
-- ✅ Level pages — maps, enemies, secrets, where items are found.
+- ✅ Level pages: maps, enemies, secrets, where items are found.
 - ✅ Fixing typos and wording anywhere.
 
 ## What not to touch
@@ -33,7 +33,7 @@ overwritten:
 ```
 
 If a stat in an AUTOGEN block looks wrong, **open an issue** instead of editing it
-— it means the generator or the game data needs a fix.
+because it means the generator or the game data needs a fix.
 
 ## Style
 

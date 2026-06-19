@@ -1,12 +1,12 @@
 # Bongos
 
-<!-- AUTOGEN:START — regenerated from game source; edits inside this block are overwritten on the next run -->
+<!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
 ![Bongos](../assets/icons/key_bongos.png){ .item-icon }
 
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | — |
+| Equip slot | N/A |
 | Price | 0 gold |
 | Max stack | 1 |
 | Quest item | Yes |
@@ -17,4 +17,4 @@
 
 ## Strategy & Notes
 
-_Community-maintained — add tips, synergies, build ideas, and lore here._
+_Community-maintained: add tips, synergies, build ideas, and lore here._

@@ -1,4 +1,4 @@
-<!-- AUTOGEN:START — regenerated from game source; edits inside this block are overwritten on the next run -->
+<!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
 # Levels
 
 Areas of *Bring Me Hope*, grouped from the game's rooms. These are seeded automatically; flesh out each area below with maps, enemies, secrets, and items found there.

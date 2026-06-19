@@ -1,6 +1,6 @@
 # Knight's Shoulder Armor Pad
 
-<!-- AUTOGEN:START — regenerated from game source; edits inside this block are overwritten on the next run -->
+<!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
 ![Knight's Shoulder Armor Pad](../assets/icons/knightsshoulderarmorpad.png){ .item-icon }
 
 | Property | Value |
@@ -17,4 +17,4 @@
 
 ## Strategy & Notes
 
-_Community-maintained — add tips, synergies, build ideas, and lore here._
+_Community-maintained: add tips, synergies, build ideas, and lore here._

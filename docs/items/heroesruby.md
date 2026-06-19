@@ -1,6 +1,6 @@
 # Heroes Ruby
 
-<!-- AUTOGEN:START — regenerated from game source; edits inside this block are overwritten on the next run -->
+<!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
 ![Heroes Ruby](../assets/icons/heroesruby.png){ .item-icon }
 
 | Property | Value |
@@ -17,4 +17,4 @@
 
 ## Strategy & Notes
 
-_Community-maintained — add tips, synergies, build ideas, and lore here._
+_Community-maintained: add tips, synergies, build ideas, and lore here._

@@ -69,7 +69,7 @@ def resolve_game_project() -> Path:
 # AUTOGEN block handling
 # --------------------------------------------------------------------------- #
 
-AUTOGEN_START = "<!-- AUTOGEN:START — regenerated from game source; edits inside this block are overwritten on the next run -->"
+AUTOGEN_START = "<!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->"
 AUTOGEN_END = "<!-- AUTOGEN:END -->"
 _AUTOGEN_RE = re.compile(
     re.escape("<!-- AUTOGEN:START") + r".*?" + re.escape(AUTOGEN_END),
@@ -197,7 +197,7 @@ def parse_item(gml_text: str):
         name = unquote(args[0])
         key = unquote(args[1])
         if name is None or key is None:
-            # Non-literal (e.g. a loop building keys) — skip; document by hand.
+            # Non-literal (e.g. a loop building keys); skip and document by hand.
             continue
         price_raw = args[2].strip()
         try:
@@ -285,7 +285,7 @@ def item_block(it: dict, desc: str, has_icon: bool) -> str:
         lines.append(f'![{it["name"]}](../assets/icons/{it["key"]}.png){{ .item-icon }}\n')
     lines.append("| Property | Value |")
     lines.append("|---|---|")
-    slot_display = "—" if it["is_key"] else it["slot"]
+    slot_display = "N/A" if it["is_key"] else it["slot"]
     lines.append(f'| Grade | {grade_span(it["grade"])} |')
     lines.append(f'| Equip slot | {slot_display} |')
     lines.append(f'| Price | {it["price"]} gold |')
@@ -304,13 +304,13 @@ def item_template(name: str):
             f"# {name}\n\n"
             f"{region}\n\n"
             "## Strategy & Notes\n\n"
-            "_Community-maintained — add tips, synergies, build ideas, and lore here._\n"
+            "_Community-maintained: add tips, synergies, build ideas, and lore here._\n"
         )
     return make
 
 
 # --------------------------------------------------------------------------- #
-# Levels (scaffold — rooms have no rich metadata, so this is community-seeded)
+# Levels (scaffold; rooms have no rich metadata, so this is community-seeded)
 # --------------------------------------------------------------------------- #
 
 SKIP_ROOM = re.compile(
@@ -397,7 +397,7 @@ def write_items_index(path: Path, items: list[dict]) -> None:
         icon = (f'![](../assets/icons/{it["key"]}.png){{ .item-icon-sm }}'
                 if it["_icon"] else "")
         name = f'[{it["name"]}]({it["key"]}.md)'
-        slot_display = "—" if it["is_key"] else it["slot"]
+        slot_display = "N/A" if it["is_key"] else it["slot"]
         rows.append(
             f'| {icon} | {name} | {grade_span(it["grade"])} | {slot_display} '
             f'| {it["price"]} | {it["_desc"]} |'

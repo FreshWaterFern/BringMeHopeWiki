@@ -1,6 +1,6 @@
 # Scholar's Circlet
 
-<!-- AUTOGEN:START — regenerated from game source; edits inside this block are overwritten on the next run -->
+<!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
 ![Scholar's Circlet](../assets/icons/scholarscirclet.png){ .item-icon }
 
 | Property | Value |
@@ -17,4 +17,4 @@
 
 ## Strategy & Notes
 
-_Community-maintained — add tips, synergies, build ideas, and lore here._
+_Community-maintained: add tips, synergies, build ideas, and lore here._
