@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-striking">Striking</span> |
 | Equip slot | Chest |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `gluttonsheart` |
 
 **In-game description:** Whenever you are healed, gain +20% base damage for 10 seconds.

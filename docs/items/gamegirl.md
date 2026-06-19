@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-remarkable">Remarkable</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `gamegirl` |
 
 **In-game description:** Increases damage by 20%

@@ -9,9 +9,13 @@ find it here.
 
 ## What's inside
 
-- **🎒 [Items](https://freshwaterfern.github.io/BringMeHopeWiki/items/)**: all 99 items,
-  with their grade, equip slot, price, and what they actually do. Sort the master
-  table by any column to compare.
+- **🎒 [Items](https://freshwaterfern.github.io/BringMeHopeWiki/items/)**: everything in
+  the loot pool, with grade, equip slot, the version it was added in, and what it does.
+  Sort any table column to compare.
+- **🔑 [Key Items](https://freshwaterfern.github.io/BringMeHopeWiki/key-items/)**: quest
+  and key items used to progress.
+- **⭐ [Special Items](https://freshwaterfern.github.io/BringMeHopeWiki/special-items/)**:
+  items not found in the loot pool, obtained through other means.
 - **🗺️ [Levels](https://freshwaterfern.github.io/BringMeHopeWiki/levels/)**: the areas
   of the world, their rooms, enemies, and the loot hiding in them.
 

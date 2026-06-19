@@ -1,18 +1,16 @@
-# Bomb
+# Fishing Rod
 
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
-![Bomb](../assets/icons/key_bomb.png){ .item-icon }
+![Fishing Rod](../assets/icons/key_fishingrod.png){ .item-icon }
 
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | N/A |
-| Price | 0 gold |
 | Max stack | 1 |
-| Quest item | Yes |
-| Save id | `key_bomb` |
+| Added in version | 0.0.0 |
+| Save id | `key_fishingrod` |
 
-**In-game description:** Bombs that can be used to clear the debris blocking the north of the Gub Gub Caves.
+**In-game description:** A fishing rod you were given by a random sailor. Can be used to fish in some bodies of water.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

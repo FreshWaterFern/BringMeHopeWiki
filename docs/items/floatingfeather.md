@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-remarkable">Remarkable</span> |
 | Equip slot | Feet |
-| Price | 500 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `floatingfeather` |
 
 **In-game description:** Increases your movement speed by 8% and your dodge chance by 10%

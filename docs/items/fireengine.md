@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-chaos">Chaos</span> |
 | Equip slot | Chest |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `fireengine` |
 
 **In-game description:** When on fire you get +20% physical/magical resistance and +40% physical damage

@@ -1,18 +1,16 @@
-# Blaow's Backpack - Frosted Caves
+# Dungeon Key - Frosted Caves
 
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
-![Blaow's Backpack - Frosted Caves](../assets/icons/key_blaowsbackpack_frostedcaves.png){ .item-icon }
+![Dungeon Key - Frosted Caves](../assets/icons/key_dungeonkey_frostedcaves.png){ .item-icon }
 
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | N/A |
-| Price | 0 gold |
 | Max stack | 1 |
-| Quest item | Yes |
-| Save id | `key_blaowsbackpack_frostedcaves` |
+| Added in version | 0.0.0 |
+| Save id | `key_dungeonkey_frostedcaves` |
 
-**In-game description:** Blaow's backpack that his father (Daryl) packed for him.
+**In-game description:** Unlocks doors within the Frosted Caves
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

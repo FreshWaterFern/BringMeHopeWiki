@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exceptional">Exceptional</span> |
 | Equip slot | Chest |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `ferncharm` |
 
 **In-game description:** Whenever you deal damage, regain 0.5 health

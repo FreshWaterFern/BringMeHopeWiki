@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-ordinary">Ordinary</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `lootring` |
 
 **In-game description:** 10% chance to increase the rarity of items found in chests

@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-striking">Striking</span> |
 | Equip slot | Chest |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `lifeborrower` |
 
 **In-game description:** Parrying an enemy steals 2 health

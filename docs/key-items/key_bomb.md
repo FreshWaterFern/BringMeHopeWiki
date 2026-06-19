@@ -1,18 +1,16 @@
-# Lost Texts
+# Bomb
 
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
-![Lost Texts](../assets/icons/key_losttexts.png){ .item-icon }
+![Bomb](../assets/icons/key_bomb.png){ .item-icon }
 
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | N/A |
-| Price | 0 gold |
 | Max stack | 1 |
-| Quest item | Yes |
-| Save id | `key_losttexts` |
+| Added in version | 0.0.0 |
+| Save id | `key_bomb` |
 
-**In-game description:** A collection of lost texts describing something other worldy.
+**In-game description:** Bombs that can be used to clear the debris blocking the north of the Gub Gub Caves.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exotic">Exotic</span> |
 | Equip slot | Feet |
-| Price | 1000 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `thorngreave` |
 
 **In-game description:** Dashing through enemies deals 1.5 physical damage and inflicts blood for 2 seconds, once per enemy per dash

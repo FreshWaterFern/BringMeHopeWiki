@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-remarkable">Remarkable</span> |
 | Equip slot | Feet |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `holeyshoe` |
 
 **In-game description:** Immunity to wetness and +5% physical resistance

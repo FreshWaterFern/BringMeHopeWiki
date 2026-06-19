@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-remarkable">Remarkable</span> |
 | Equip slot | Chest |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `heroesemerald` |
 
 **In-game description:** Performing a parry against a boss will inflict them with 20 magic damage

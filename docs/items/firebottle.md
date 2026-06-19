@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-chaos">Chaos</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `firebottle` |
 
 **In-game description:** When damage is taken, there is a 15% to ignite everything within a 3 meter radius

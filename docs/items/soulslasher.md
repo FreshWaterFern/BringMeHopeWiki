@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-striking">Striking</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `soulslasher` |
 
 **In-game description:** Punching inflicts enemies with leak for 3 seconds

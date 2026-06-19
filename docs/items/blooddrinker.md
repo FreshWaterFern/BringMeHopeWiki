@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-chaos">Chaos</span> |
 | Equip slot | Waist |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `blooddrinker` |
 
 **In-game description:** Dash speed is increased by 30% and physical damage is increased by 40%. Each dash and punch costs 0.5 health.

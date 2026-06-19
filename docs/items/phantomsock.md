@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exceptional">Exceptional</span> |
 | Equip slot | Feet |
-| Price | 1000 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `phantomsock` |
 
 **In-game description:** Dashing makes you intangible for 0.2 seconds, ignoring all damage. Does not stack with additional Phantom Socks.

@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-striking">Striking</span> |
 | Equip slot | Head |
-| Price | 500 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `scholarscirclet` |
 
 **In-game description:** Increases all XP you gain by 20%

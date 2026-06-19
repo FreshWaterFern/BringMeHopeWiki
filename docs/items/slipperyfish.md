@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-ordinary">Ordinary</span> |
 | Equip slot | Waist |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `slipperyfish` |
 
 **In-game description:** Increases dodge chance by 2.5%

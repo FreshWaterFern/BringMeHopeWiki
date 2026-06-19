@@ -7,12 +7,13 @@
 |---|---|
 | Grade | <span class="grade grade-exceptional">Exceptional</span> |
 | Equip slot | Chest |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `frogskin` |
 
 **In-game description:** When wet you get 20% physical and magical resistance
+
+_Not found in the loot pool; obtained through other means._
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

@@ -6,10 +6,8 @@
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | N/A |
-| Price | 0 gold |
 | Max stack | 1 |
-| Quest item | Yes |
+| Added in version | 0.0.0 |
 | Save id | `key_battery_negative_crystalsubway` |
 
 **In-game description:** One of the two batteries used for backup power in the Crystal Subway.

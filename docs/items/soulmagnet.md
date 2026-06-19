@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-ordinary">Ordinary</span> |
 | Equip slot | Waist |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `soulmagnet` |
 
 **In-game description:** Increases punches snapping you to enemies by 15%

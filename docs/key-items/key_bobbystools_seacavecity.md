@@ -1,18 +1,16 @@
-# Gillian - Receipt
+# Bobbys Tools - Sea Cave City
 
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
-![Gillian - Receipt](../assets/icons/key_gillian_receipt.png){ .item-icon }
+![Bobbys Tools - Sea Cave City](../assets/icons/key_bobbystools_seacavecity.png){ .item-icon }
 
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | N/A |
-| Price | 0 gold |
 | Max stack | 1 |
-| Quest item | Yes |
-| Save id | `key_gillian_receipt` |
+| Added in version | 0.0.0 |
+| Save id | `key_bobbystools_seacavecity` |
 
-**In-game description:** A potentially inaccurate receipt.
+**In-game description:** Bobbys tools that he needed to fix his "Gamer Rig".
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-ordinary">Ordinary</span> |
 | Equip slot | Feet |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `slickedboot` |
 
 **In-game description:** When dashing, oil will be placed on the ground beneath you

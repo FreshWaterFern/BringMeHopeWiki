@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-chaos">Chaos</span> |
 | Equip slot | Head |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `twofacedmask` |
 
 **In-game description:** Increases all damage you deal by 25% but you also take 25% more damage

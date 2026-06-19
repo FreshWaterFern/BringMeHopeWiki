@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exotic">Exotic</span> |
 | Equip slot | Chest |
-| Price | 1000 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `executionersaxe` |
 
 **In-game description:** Instantly defeats non-boss enemies you hit below 15% health. Does not stack with additional Executioner's Axes.

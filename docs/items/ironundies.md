@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exceptional">Exceptional</span> |
 | Equip slot | Waist |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `ironundies` |
 
 **In-game description:** Increases physical resistance by 25%

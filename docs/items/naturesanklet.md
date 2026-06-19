@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-striking">Striking</span> |
 | Equip slot | Feet |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `naturesanklet` |
 
 **In-game description:** When damage is taken, there is a 40% chance that you'll regenerate 1.5 health

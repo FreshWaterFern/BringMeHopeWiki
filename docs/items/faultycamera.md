@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-ordinary">Ordinary</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `faultycamera` |
 
 **In-game description:** 3% chance per punch that enemies in a 4 meter radius get stunned for 2 seconds

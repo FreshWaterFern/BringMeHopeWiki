@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-chaos">Chaos</span> |
 | Equip slot | Hands |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `sympathygauntlet` |
 
 **In-game description:** Increases physical damage by 75% and you take 10 physical damage whenever you punch enemies

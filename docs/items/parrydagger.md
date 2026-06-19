@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exceptional">Exceptional</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `parrydagger` |
 
 **In-game description:** Parrying attacks gives you +40% physical damage for 4 seconds

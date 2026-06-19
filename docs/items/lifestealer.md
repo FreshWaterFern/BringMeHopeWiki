@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-remarkable">Remarkable</span> |
 | Equip slot | Hands |
-| Price | 750 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `lifestealer` |
 
 **In-game description:** Punching an enemy steals 0.5 health

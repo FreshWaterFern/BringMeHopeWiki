@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exotic">Exotic</span> |
 | Equip slot | Head |
-| Price | 1000 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `crownofhope` |
 
 **In-game description:** Each enemy you kill permanently increases your physical damage for the rest of the run

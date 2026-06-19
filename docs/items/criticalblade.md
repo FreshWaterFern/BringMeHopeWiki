@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exotic">Exotic</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `criticalblade` |
 
 **In-game description:** Your physical attacks have a 20% chance to critical strike

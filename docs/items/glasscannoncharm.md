@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exotic">Exotic</span> |
 | Equip slot | Hands |
-| Price | 1000 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.5.11 |
 | Save id | `glasscannoncharm` |
 
 **In-game description:** Increases your base damage by 40%, but reduces your max health by 25%

@@ -1,18 +1,16 @@
-# Dungeon Key - Frosted Caves
+# Speed Trial Ticket
 
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
-![Dungeon Key - Frosted Caves](../assets/icons/key_dungeonkey_frostedcaves.png){ .item-icon }
+![Speed Trial Ticket](../assets/icons/key_speedtrialticket.png){ .item-icon }
 
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | N/A |
-| Price | 0 gold |
 | Max stack | 1 |
-| Quest item | Yes |
-| Save id | `key_dungeonkey_frostedcaves` |
+| Added in version | 0.0.0 |
+| Save id | `key_speedtrialticket` |
 
-**In-game description:** Unlocks doors within the Frosted Caves
+**In-game description:** A ticket rewarded for completing a speed trial.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

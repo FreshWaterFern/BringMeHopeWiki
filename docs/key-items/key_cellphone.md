@@ -1,18 +1,16 @@
-# Entrance Key - Crystal Subway
+# Cell Phone
 
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
-![Entrance Key - Crystal Subway](../assets/icons/key_entrancekey_crystalsubway.png){ .item-icon }
+![Cell Phone](../assets/icons/key_cellphone.png){ .item-icon }
 
 | Property | Value |
 |---|---|
 | Grade | <span class="grade grade-key">Key</span> |
-| Equip slot | N/A |
-| Price | 0 gold |
 | Max stack | 1 |
-| Quest item | Yes |
-| Save id | `key_entrancekey_crystalsubway` |
+| Added in version | 0.0.0 |
+| Save id | `key_cellphone` |
 
-**In-game description:** Opens the locked gate leading into the Crystal Subway.
+**In-game description:** A small phone that can be used for remote communication.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

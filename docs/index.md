@@ -6,7 +6,15 @@ Welcome to the community wiki for **Bring Me Hope**.
 
 - :material-treasure-chest: **[Items](items/index.md)**
 
-    Every item in the game: grades, equip slots, prices, and effects.
+    Everything you can find in the loot pool: grades, equip slots, effects, and the version each was added in.
+
+- :material-key: **[Key Items](key-items/index.md)**
+
+    Quest and key items used to progress through the game.
+
+- :material-star-circle: **[Special Items](special-items/index.md)**
+
+    Items not found in the loot pool, obtained through other means.
 
 - :material-map: **[Levels](levels/index.md)**
 

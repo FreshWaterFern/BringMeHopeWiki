@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-ordinary">Ordinary</span> |
 | Equip slot | Waist |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `superbarrel` |
 
 **In-game description:** While dashing there is a 10% chance a barrel with either water, oil, or poison will be thrown into the air. The barrel inflicts 2 physical damage.

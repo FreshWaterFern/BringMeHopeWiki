@@ -7,12 +7,13 @@
 |---|---|
 | Grade | <span class="grade grade-striking">Striking</span> |
 | Equip slot | Waist |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `krillsseashell` |
 
 **In-game description:** Has a 20% chance per second to inflict enemies with leak, within a 4 meter radius
+
+_Not found in the loot pool; obtained through other means._
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

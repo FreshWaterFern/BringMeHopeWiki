@@ -7,12 +7,13 @@
 |---|---|
 | Grade | <span class="grade grade-striking">Striking</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `solderingiron` |
 
 **In-game description:** Your punches have a 8% to ignite and deal 5 magic damage to enemies
+
+_Not found in the loot pool; obtained through other means._
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

@@ -1,17 +1,16 @@
-# Glowbug Terrarium
+# Bongos
 
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
-![Glowbug Terrarium](../assets/icons/glowbugterrarium.png){ .item-icon }
+![Bongos](../assets/icons/key_bongos.png){ .item-icon }
 
 | Property | Value |
 |---|---|
-| Grade | <span class="grade grade-remarkable">Remarkable</span> |
-| Equip slot | Hands |
+| Grade | <span class="grade grade-key">Key</span> |
 | Max stack | 1 |
 | Added in version | 0.0.0 |
-| Save id | `glowbugterrarium` |
+| Save id | `key_bongos` |
 
-**In-game description:** Punching deals 2 damage in a 3 meter radius
+**In-game description:** Bongo drums that were left behind by Guy.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

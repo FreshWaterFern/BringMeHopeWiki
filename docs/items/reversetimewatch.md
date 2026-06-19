@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-exotic">Exotic</span> |
 | Equip slot | Waist |
-| Price | 2000 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `reversetimewatch` |
 
 **In-game description:** When you die you are revived with full health but this item disappears

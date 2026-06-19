@@ -6,8 +6,8 @@ Parses the (private) GameMaker game source and emits Markdown pages for the
 (public) MkDocs wiki:
 
   * one page per item, built from `scr_itemdb_<key>.gml` + Items.csv + the
-    item's sprite icon
-  * a sortable master item table
+    item's sprite icon, split into Items / Key Items / Special Items
+  * a sortable index table per category (the version comes from Items.csv)
   * a scaffolded level index grouped by area
 
 Edit safety
@@ -207,6 +207,8 @@ def parse_item(gml_text: str):
         grade = args[5].split(".")[-1].strip()
         is_key = len(args) > 6 and args[6].strip().lower() == "true"
         slot = args[7].split(".")[-1].strip() if len(args) > 7 else "Chest"
+        # add_to_loottable defaults to true; only an explicit `false` removes it.
+        add_to_loot = args[8].strip().lower() != "false" if len(args) > 8 else True
         try:
             stack = int(args[4].strip())
         except ValueError:
@@ -220,6 +222,7 @@ def parse_item(gml_text: str):
             "grade": grade,
             "is_key": is_key,
             "slot": slot,
+            "add_to_loot": add_to_loot,
         }
 
 
@@ -279,23 +282,50 @@ def grade_span(grade: str) -> str:
     return f'<span class="grade {cls}">{grade}</span>'
 
 
+# Item categories -> (folder, page title, index blurb). The folder names are
+# chosen so MkDocs auto-nav titles them nicely (e.g. key-items -> "Key Items").
+CATEGORIES = {
+    "regular": (
+        "items", "Items",
+        "Items you can find in the loot pool.",
+    ),
+    "key": (
+        "key-items", "Key Items",
+        "Quest and key items used to progress. These are not part of the loot pool.",
+    ),
+    "special": (
+        "special-items", "Special Items",
+        "Items that are not found in the loot pool; they are obtained through other means.",
+    ),
+}
+
+
+def category_of(it: dict) -> str:
+    if it["is_key"]:
+        return "key"
+    if not it["add_to_loot"]:
+        return "special"
+    return "regular"
+
+
 def item_block(it: dict, desc: str, has_icon: bool) -> str:
     lines = []
     if has_icon:
         lines.append(f'![{it["name"]}](../assets/icons/{it["key"]}.png){{ .item-icon }}\n')
     lines.append("| Property | Value |")
     lines.append("|---|---|")
-    slot_display = "N/A" if it["is_key"] else it["slot"]
     lines.append(f'| Grade | {grade_span(it["grade"])} |')
-    lines.append(f'| Equip slot | {slot_display} |')
-    lines.append(f'| Price | {it["price"]} gold |')
+    if not it["is_key"]:
+        lines.append(f'| Equip slot | {it["slot"]} |')
     lines.append(f'| Max stack | {it["stack"]} |')
-    lines.append(f'| Quest item | {"Yes" if it["is_key"] else "No"} |')
+    lines.append(f'| Added in version | {it["version"]} |')
     lines.append(f'| Save id | `{it["key"]}` |')
+    body = "\n".join(lines)
     if desc:
-        lines.append("")
-        lines.append(f"**In-game description:** {desc}")
-    return "\n".join(lines)
+        body += f"\n\n**In-game description:** {desc}"
+    if it["category"] == "special":
+        body += "\n\n_Not found in the loot pool; obtained through other means._"
+    return body
 
 
 def item_template(name: str):
@@ -353,9 +383,9 @@ def main() -> None:
     csv_path = game / "datafiles" / "Languages" / "English" / "Items.csv"
     text = load_csv(csv_path) if csv_path.exists() else {}
 
-    items_dir = DOCS / "items"
     icons_dir = DOCS / "assets" / "icons"
-    items: list[dict] = []
+    by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
+    total = 0
     skipped: list[str] = []
 
     for gml in sorted(game.glob("scripts/scr_itemdb_*/scr_itemdb_*.gml")):
@@ -364,35 +394,43 @@ def main() -> None:
             skipped.append(gml.parent.name)
             continue
         for it in parsed:
+            it["category"] = category_of(it)
+            it["version"] = text.get(f'{it["name"]} - Version', "Unknown")
             desc = text.get(f'{it["name"]} - Desc', "")
+            folder = CATEGORIES[it["category"]][0]
             has_icon = (not args.no_icons) and export_icon(
                 game, it["sprite"], it["key"], icons_dir
             )
             it["_desc"] = desc
             it["_icon"] = has_icon
             write_with_autogen(
-                items_dir / f'{it["key"]}.md',
+                DOCS / folder / f'{it["key"]}.md',
                 item_block(it, desc, has_icon),
                 item_template(it["name"]),
             )
-            items.append(it)
+            by_cat[it["category"]].append(it)
+            total += 1
 
-    items.sort(key=lambda it: it["name"].lower())
-    write_items_index(items_dir / "index.md", items)
+    for cat, (folder, title, blurb) in CATEGORIES.items():
+        rows = sorted(by_cat[cat], key=lambda it: it["name"].lower())
+        write_category_index(DOCS / folder / "index.md", title, blurb, rows)
     write_levels(game)
 
-    print(f"items: {len(items)} pages")
-    print(f"icons: {sum(1 for it in items if it['_icon'])} exported")
+    print(f"items: {total} pages "
+          f"(regular {len(by_cat['regular'])}, "
+          f"key {len(by_cat['key'])}, special {len(by_cat['special'])})")
+    print(f"icons: {sum(1 for c in by_cat.values() for it in c if it['_icon'])} exported")
     if skipped:
         print(f"skipped (no literal item_create): {', '.join(skipped)}")
 
 
-def write_items_index(path: Path, items: list[dict]) -> None:
-    rows = ["# Items", "",
-            f"All {len(items)} items in *Bring Me Hope*. Click a column header to sort, "
+def write_category_index(path: Path, title: str, blurb: str,
+                         items: list[dict]) -> None:
+    rows = [f"# {title}", "",
+            f"{blurb} {len(items)} in total. Click a column header to sort, "
             "or click an item name for its full page.", "",
-            "| Icon | Name | Grade | Slot | Price | Description |",
-            "|---|---|---|---|---:|---|"]
+            "| Icon | Name | Grade | Slot | Version | Description |",
+            "|---|---|---|---|---|---|"]
     for it in items:
         icon = (f'![](../assets/icons/{it["key"]}.png){{ .item-icon-sm }}'
                 if it["_icon"] else "")
@@ -400,9 +438,10 @@ def write_items_index(path: Path, items: list[dict]) -> None:
         slot_display = "N/A" if it["is_key"] else it["slot"]
         rows.append(
             f'| {icon} | {name} | {grade_span(it["grade"])} | {slot_display} '
-            f'| {it["price"]} | {it["_desc"]} |'
+            f'| {it["version"]} | {it["_desc"]} |'
         )
     block = "\n".join(rows)
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         f"{AUTOGEN_START}\n{block}\n{AUTOGEN_END}\n", encoding="utf-8"
     )

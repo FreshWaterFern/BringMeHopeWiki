@@ -7,9 +7,8 @@
 |---|---|
 | Grade | <span class="grade grade-chaos">Chaos</span> |
 | Equip slot | Hands |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `singleshotrevolver` |
 
 **In-game description:** The gun has 6 rounds, 5 of them deal 15 physical damage to enemies, 1 of them deals 15 physical damage to you

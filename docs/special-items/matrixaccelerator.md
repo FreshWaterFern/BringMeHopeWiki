@@ -7,12 +7,13 @@
 |---|---|
 | Grade | <span class="grade grade-remarkable">Remarkable</span> |
 | Equip slot | Chest |
-| Price | 100 gold |
 | Max stack | 1 |
-| Quest item | No |
+| Added in version | 0.0.0 |
 | Save id | `matrixaccelerator` |
 
 **In-game description:** Increases dash speed by 30%
+
+_Not found in the loot pool; obtained through other means._
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes
