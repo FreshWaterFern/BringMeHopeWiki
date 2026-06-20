@@ -6,5 +6,5 @@ Update history for *Bring Me Hope*, pulled from the game's [Steam announcements]
 
 | Version | Update | Date |
 |---|---|---|
-| 0.5.5 | [Update 0.5.5 - Performance and more!](https://store.steampowered.com/news/app/1493290/view/1833968530900971) | 2026-06-02 |
-| 0.5.0.0 | [Update 0.5.0.0](https://store.steampowered.com/news/app/1493290/view/1833334318577941) | 2026-05-25 |
+| 0.5.5 | [Update 0.5.5 - Performance and more!](https://store.steampowered.com/news/app/1493290/view/685255211989601326) | 2026-06-02 |
+| 0.5.0.0 | [Update 0.5.0.0](https://store.steampowered.com/news/app/1493290/view/696513576839415357) | 2026-05-25 |

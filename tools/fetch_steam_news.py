@@ -29,6 +29,7 @@ STORE_PAGE = f"https://store.steampowered.com/app/{APP_ID}/Bring_Me_Hope/"
 OUT = Path(__file__).resolve().parent.parent / "docs" / "game-versions.md"
 
 VERSION_RE = re.compile(r"(\d+\.\d+(?:\.\d+){0,2})")
+ANNOUNCE_RE = re.compile(r"/announcements/detail/(\d+)")
 
 
 def fetch_items() -> list[dict]:
@@ -38,12 +39,39 @@ def fetch_items() -> list[dict]:
     return data.get("appnews", {}).get("newsitems", [])
 
 
+def post_url(it: dict) -> str:
+    """Canonical Steam permalink for a news item.
+
+    The feed's ``gid`` is the news-feed item id, which is a *different* number
+    from the announcement id used in '/news/app/<appid>/view/<id>' permalinks --
+    so building the link straight from ``gid`` points at the wrong post (Steam's
+    news hub is a JS app that still returns 200 for a bad id, so it fails
+    silently). The item's own ``url`` redirects to the real announcement; follow
+    it once to recover the announcement id and build a clean store link. Fall
+    back to the raw ``url`` (which still redirects correctly), then to the
+    gid-based url.
+    """
+    raw = (it.get("url") or "").strip()
+    if raw:
+        try:
+            req = urllib.request.Request(raw, headers={"User-Agent": "BMHWiki/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                final = resp.geturl()
+            m = ANNOUNCE_RE.search(final)
+            if m:
+                return STORE_NEWS + m.group(1)
+        except Exception:
+            pass
+        return raw
+    gid = str(it.get("gid") or "").strip()
+    return STORE_NEWS + gid if gid else ""
+
+
 def render(items: list[dict]) -> str:
     rows = []
     for it in sorted(items, key=lambda i: i.get("date", 0), reverse=True):
         title = (it.get("title") or "").strip()
-        gid = it.get("gid", "")
-        url = STORE_NEWS + str(gid) if gid else (it.get("url") or "")
+        url = post_url(it)
         date = datetime.fromtimestamp(
             it.get("date", 0), tz=timezone.utc
         ).strftime("%Y-%m-%d")
