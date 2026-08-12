@@ -6,7 +6,7 @@ I'm Fern, and I've been building *Bring Me Hope* by myself for about seven years
 
 I started it in mid-2019 under the name *Bring Me Purpose* and entered it into the [Decade Jam](https://itch.io/jam/decadejam), which bills itself as the world's first ten-year-long game jam. It runs from 2019 to 2029, and there's a countdown to that deadline still ticking away over on [my site](https://www.fernmakesgames.com). So yes, I gave myself ten years to make one game. I'm aware of how that sounds.
 
-What follows is the story of how it's come together so far, year by year. Fair warning: it's mostly a story about scope, about emotion, and about a lil artist fella (me) who keeps biting off far more than he can chew and then, somehow, chewing it anyway.
+What follows is the story of how it's come together so far, year by year. Fair warning: it's mostly a story about scope, about emotion, and about a lil artist gal (me) who keeps biting off far more than she can chew and then, somehow, chewing it anyway.
 
 > **Where things stand (mid-2026):** ~7 years in, 2,000-plus commits, one very tired developer doing every single job, and a finish line waiting for me in 2029.
 
