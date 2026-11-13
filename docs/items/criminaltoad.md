@@ -11,7 +11,7 @@
 | Added in version | 0.0.0 |
 | Save id | `criminaltoad` |
 
-**In-game description:** Breaking objects gives you 5 xp
+**In-game description:** Breaking objects gives you 2 xp
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

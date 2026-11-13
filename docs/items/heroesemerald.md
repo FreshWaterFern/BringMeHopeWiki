@@ -11,7 +11,7 @@
 | Added in version | 0.0.0 |
 | Save id | `heroesemerald` |
 
-**In-game description:** Performing a parry against a boss will inflict them with 20 magic damage
+**In-game description:** Performing a parry against a boss will inflict them with 10 magic damage
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

@@ -1,7 +1,7 @@
 <!-- AUTOGEN:START (regenerated from game source; edits inside this block are overwritten on the next run) -->
 # Items
 
-Items you can find in the loot pool. 74 in total. Click a column header to sort, or click an item name for its full page.
+Items you can find in the loot pool. 75 in total. Click a column header to sort, or click an item name for its full page.
 
 | Icon | Name | Grade | Slot | Version | Description |
 |---|---|---|---|---|---|
@@ -10,11 +10,11 @@ Items you can find in the loot pool. 74 in total. Click a column header to sort,
 | ![](../assets/icons/breathingmask.png){ .item-icon-sm } | [Breathing Mask](breathingmask.md) | <span class="grade grade-striking">Striking</span> | Head | 0.0.0 | Immunity to poison |
 | ![](../assets/icons/cookingpot.png){ .item-icon-sm } | [Cooking Pot](cookingpot.md) | <span class="grade grade-ordinary">Ordinary</span> | Head | 0.0.0 | Increases physical resistance by 6.5% |
 | ![](../assets/icons/cracker.png){ .item-icon-sm } | [Cracker](cracker.md) | <span class="grade grade-ordinary">Ordinary</span> | Chest | 0.0.0 | Consuming this item will heal you for 50 health |
-| ![](../assets/icons/criminaltoad.png){ .item-icon-sm } | [Criminal Toad](criminaltoad.md) | <span class="grade grade-striking">Striking</span> | Waist | 0.0.0 | Breaking objects gives you 5 xp |
+| ![](../assets/icons/criminaltoad.png){ .item-icon-sm } | [Criminal Toad](criminaltoad.md) | <span class="grade grade-striking">Striking</span> | Waist | 0.0.0 | Breaking objects gives you 2 xp |
 | ![](../assets/icons/criticalblade.png){ .item-icon-sm } | [Critical Blade](criticalblade.md) | <span class="grade grade-exotic">Exotic</span> | Hands | 0.0.0 | Your physical attacks have a 20% chance to critical strike |
 | ![](../assets/icons/crownofhope.png){ .item-icon-sm } | [Crown of Hope](crownofhope.md) | <span class="grade grade-exotic">Exotic</span> | Head | 0.5.11 | Each enemy you kill permanently increases your physical damage for the rest of the run |
 | ![](../assets/icons/dashspring.png){ .item-icon-sm } | [Dash Spring](dashspring.md) | <span class="grade grade-striking">Striking</span> | Feet | 0.0.0 | Increases kick off speed bonus by 10% |
-| ![](../assets/icons/electricjug.png){ .item-icon-sm } | [Electric Jug](electricjug.md) | <span class="grade grade-striking">Striking</span> | Waist | 0.0.0 | Every 5th punch deals 15 electric damage that can chain between enemies |
+| ![](../assets/icons/electricjug.png){ .item-icon-sm } | [Electric Jug](electricjug.md) | <span class="grade grade-striking">Striking</span> | Waist | 0.0.0 | Every 5th punch deals 8 electric damage that can chain between enemies |
 | ![](../assets/icons/executionersaxe.png){ .item-icon-sm } | [Executioner's Axe](executionersaxe.md) | <span class="grade grade-exotic">Exotic</span> | Chest | 0.5.11 | Instantly defeats non-boss enemies you hit below 15% health. Does not stack with additional Executioner's Axes. |
 | ![](../assets/icons/explodinggem.png){ .item-icon-sm } | [Exploding Gem](explodinggem.md) | <span class="grade grade-remarkable">Remarkable</span> | Hands | 0.0.0 | Punching enemies creates an explosion that does 4 damage |
 | ![](../assets/icons/faultycamera.png){ .item-icon-sm } | [Faulty Camera](faultycamera.md) | <span class="grade grade-ordinary">Ordinary</span> | Hands | 0.0.0 | 3% chance per punch that enemies in a 4 meter radius get stunned for 2 seconds |
@@ -24,16 +24,18 @@ Items you can find in the loot pool. 74 in total. Click a column header to sort,
 | ![](../assets/icons/fireengine.png){ .item-icon-sm } | [Fire Engine](fireengine.md) | <span class="grade grade-chaos">Chaos</span> | Chest | 0.0.0 | When on fire you get +20% physical/magical resistance and +40% physical damage |
 | ![](../assets/icons/firemask.png){ .item-icon-sm } | [Fire Mask](firemask.md) | <span class="grade grade-striking">Striking</span> | Head | 0.0.0 | Immunity to burning |
 | ![](../assets/icons/floatingfeather.png){ .item-icon-sm } | [Floating Feather](floatingfeather.md) | <span class="grade grade-remarkable">Remarkable</span> | Feet | 0.5.11 | Increases your movement speed by 8% and your dodge chance by 10% |
+| ![](../assets/icons/focusglasses.png){ .item-icon-sm } | [Focus Glasses](focusglasses.md) | <span class="grade grade-striking">Striking</span> | Head | 0.7.10 | Increases Flow duration by 10% |
+| ![](../assets/icons/focusglove.png){ .item-icon-sm } | [Focus Glove](focusglove.md) | <span class="grade grade-striking">Striking</span> | Hands | 0.7.10 | Increases the Flow damage bonus by 10% |
 | ![](../assets/icons/footflipper.png){ .item-icon-sm } | [Foot Flipper](footflipper.md) | <span class="grade grade-ordinary">Ordinary</span> | Feet | 0.0.0 | When wet, increases movement speed by 15% |
 | ![](../assets/icons/gamegirl.png){ .item-icon-sm } | [Game Girl](gamegirl.md) | <span class="grade grade-remarkable">Remarkable</span> | Hands | 0.0.0 | Increases damage by 20% |
 | ![](../assets/icons/glasscannoncharm.png){ .item-icon-sm } | [Glass Cannon Charm](glasscannoncharm.md) | <span class="grade grade-exotic">Exotic</span> | Hands | 0.5.11 | Increases your base damage by 40%, but reduces your max health by 25% |
 | ![](../assets/icons/glowbugterrarium.png){ .item-icon-sm } | [Glowbug Terrarium](glowbugterrarium.md) | <span class="grade grade-remarkable">Remarkable</span> | Hands | 0.0.0 | Punching deals 2 damage in a 3 meter radius |
-| ![](../assets/icons/gluttonsheart.png){ .item-icon-sm } | [Glutton's Heart](gluttonsheart.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.5.11 | Whenever you are healed, gain +20% base damage for 10 seconds. |
+| ![](../assets/icons/gluttonsheart.png){ .item-icon-sm } | [Glutton's Heart](gluttonsheart.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.5.11 | Whenever you are healed, gain +10% base damage for 10 seconds. |
 | ![](../assets/icons/greenjuice.png){ .item-icon-sm } | [Green Juice](greenjuice.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.0.0 | Consuming this item will heal you for 150 health |
 | ![](../assets/icons/headhuntershat.png){ .item-icon-sm } | [Headhunter's Hat](headhuntershat.md) | <span class="grade grade-exotic">Exotic</span> | Head | 0.5.11 | Permanently gain +0.1 max health for every enemy you defeat. There is no limit. |
 | ![](../assets/icons/heartjar.png){ .item-icon-sm } | [Heart Jar](heartjar.md) | <span class="grade grade-striking">Striking</span> | Waist | 0.0.0 | Increases max health by 30 |
-| ![](../assets/icons/heroesemerald.png){ .item-icon-sm } | [Heroes Emerald](heroesemerald.md) | <span class="grade grade-remarkable">Remarkable</span> | Chest | 0.0.0 | Performing a parry against a boss will inflict them with 20 magic damage |
-| ![](../assets/icons/heroesruby.png){ .item-icon-sm } | [Heroes Ruby](heroesruby.md) | <span class="grade grade-remarkable">Remarkable</span> | Chest | 0.0.0 | Life steal 2.5 health when you punch a boss |
+| ![](../assets/icons/heroesemerald.png){ .item-icon-sm } | [Heroes Emerald](heroesemerald.md) | <span class="grade grade-remarkable">Remarkable</span> | Chest | 0.0.0 | Performing a parry against a boss will inflict them with 10 magic damage |
+| ![](../assets/icons/heroesruby.png){ .item-icon-sm } | [Heroes Ruby](heroesruby.md) | <span class="grade grade-remarkable">Remarkable</span> | Chest | 0.0.0 | Life steal 0.4 health when you punch a boss |
 | ![](../assets/icons/heroessapphire.png){ .item-icon-sm } | [Heroes Sapphire](heroessapphire.md) | <span class="grade grade-remarkable">Remarkable</span> | Chest | 0.0.0 | While fighting a boss increase magical resistance by 30% |
 | ![](../assets/icons/heroestopaz.png){ .item-icon-sm } | [Heroes Topaz](heroestopaz.md) | <span class="grade grade-remarkable">Remarkable</span> | Chest | 0.0.0 | While fighting a boss increase physical resistance by 30% |
 | ![](../assets/icons/holeyshoe.png){ .item-icon-sm } | [Holey Shoe](holeyshoe.md) | <span class="grade grade-remarkable">Remarkable</span> | Feet | 0.0.0 | Immunity to wetness and +5% physical resistance |
@@ -44,8 +46,8 @@ Items you can find in the loot pool. 74 in total. Click a column header to sort,
 | ![](../assets/icons/knittedmitten.png){ .item-icon-sm } | [Knitted Mitten](knittedmitten.md) | <span class="grade grade-ordinary">Ordinary</span> | Hands | 0.0.0 | Immunity to freezing |
 | ![](../assets/icons/lastchancelocket.png){ .item-icon-sm } | [Last Chance Locket](lastchancelocket.md) | <span class="grade grade-exotic">Exotic</span> | Chest | 0.5.11 | Once per room, cheat death and revive with 10 health. |
 | ![](../assets/icons/lensenhancer.png){ .item-icon-sm } | [Lens Enhancer](lensenhancer.md) | <span class="grade grade-ordinary">Ordinary</span> | Waist | 0.0.0 | Increases magical damage by 15% |
-| ![](../assets/icons/lifeborrower.png){ .item-icon-sm } | [Life Borrower](lifeborrower.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.0.0 | Parrying an enemy steals 2 health |
-| ![](../assets/icons/lifestealer.png){ .item-icon-sm } | [Life Stealer](lifestealer.md) | <span class="grade grade-remarkable">Remarkable</span> | Hands | 0.0.0 | Punching an enemy steals 0.5 health |
+| ![](../assets/icons/lifeborrower.png){ .item-icon-sm } | [Life Borrower](lifeborrower.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.0.0 | Parrying an enemy steals 1 health |
+| ![](../assets/icons/lifestealer.png){ .item-icon-sm } | [Life Stealer](lifestealer.md) | <span class="grade grade-remarkable">Remarkable</span> | Hands | 0.0.0 | Punching an enemy steals 0.2 health |
 | ![](../assets/icons/lootring.png){ .item-icon-sm } | [Loot Ring](lootring.md) | <span class="grade grade-ordinary">Ordinary</span> | Hands | 0.0.0 | 10% chance to increase the rarity of items found in chests |
 | ![](../assets/icons/menderslocket.png){ .item-icon-sm } | [Mender's Locket](menderslocket.md) | <span class="grade grade-striking">Striking</span> | Chest | 0.5.11 | Increases all healing you receive by 10% |
 | ![](../assets/icons/mirrorshard.png){ .item-icon-sm } | [Mirror Shard](mirrorshard.md) | <span class="grade grade-chaos">Chaos</span> | Chest | 0.5.11 | Reflects 30% of the damage you take back to the attacker, but you take 15% more damage |
@@ -61,14 +63,13 @@ Items you can find in the loot pool. 74 in total. Click a column header to sort,
 | ![](../assets/icons/runningshoe.png){ .item-icon-sm } | [Running Shoe](runningshoe.md) | <span class="grade grade-striking">Striking</span> | Feet | 0.0.0 | Increases movement speed by 5% |
 | ![](../assets/icons/scholarscirclet.png){ .item-icon-sm } | [Scholar's Circlet](scholarscirclet.md) | <span class="grade grade-striking">Striking</span> | Head | 0.5.11 | Increases all XP you gain by 20% |
 | ![](../assets/icons/shockcollar.png){ .item-icon-sm } | [Shock Collar](shockcollar.md) | <span class="grade grade-ordinary">Ordinary</span> | Head | 0.0.0 | When you take damage, there is a 10% chance that you will deal 5 electric damage in a 3 meter radius |
-| ![](../assets/icons/singleguysandal.png){ .item-icon-sm } | [Single Guy Sandal](singleguysandal.md) | <span class="grade grade-remarkable">Remarkable</span> | Feet | 0.0.0 | Increases magical damage by 50% |
 | ![](../assets/icons/singleshotrevolver.png){ .item-icon-sm } | [Single Shot Revolver](singleshotrevolver.md) | <span class="grade grade-chaos">Chaos</span> | Hands | 0.0.0 | The gun has 6 rounds, 5 of them deal 15 physical damage to enemies, 1 of them deals 15 physical damage to you |
 | ![](../assets/icons/slickedboot.png){ .item-icon-sm } | [Slicked Boot](slickedboot.md) | <span class="grade grade-ordinary">Ordinary</span> | Feet | 0.0.0 | When dashing, oil will be placed on the ground beneath you |
 | ![](../assets/icons/slipperyfish.png){ .item-icon-sm } | [Slippery Fish](slipperyfish.md) | <span class="grade grade-ordinary">Ordinary</span> | Waist | 0.0.0 | Increases dodge chance by 2.5% |
 | ![](../assets/icons/souljartrinket.png){ .item-icon-sm } | [Soul Jar Trinket](souljartrinket.md) | <span class="grade grade-ordinary">Ordinary</span> | Waist | 0.5.11 | Punches deal 1 magic damage |
 | ![](../assets/icons/soulmagnet.png){ .item-icon-sm } | [Soul Magnet](soulmagnet.md) | <span class="grade grade-ordinary">Ordinary</span> | Waist | 0.0.0 | Increases punches snapping you to enemies by 15% |
 | ![](../assets/icons/soulslasher.png){ .item-icon-sm } | [Soul Slasher](soulslasher.md) | <span class="grade grade-striking">Striking</span> | Hands | 0.0.0 | Punching inflicts enemies with leak for 3 seconds |
-| ![](../assets/icons/stickydonut.png){ .item-icon-sm } | [Sticky Donut](stickydonut.md) | <span class="grade grade-striking">Striking</span> | Hands | 0.0.0 | Punches make enemies gooey (slowed by 25%) for 2 seconds |
+| ![](../assets/icons/stickydonut.png){ .item-icon-sm } | [Sticky Donut](stickydonut.md) | <span class="grade grade-ordinary">Ordinary</span> | Hands | 0.0.0 | Punches make enemies gooey (slowed by 25%) for 2 seconds |
 | ![](../assets/icons/superbarrel.png){ .item-icon-sm } | [Super Barrel](superbarrel.md) | <span class="grade grade-ordinary">Ordinary</span> | Waist | 0.0.0 | While dashing there is a 10% chance a barrel with either water, oil, or poison will be thrown into the air. The barrel inflicts 2 physical damage. |
 | ![](../assets/icons/suplexbelt.png){ .item-icon-sm } | [Suplex Belt](suplexbelt.md) | <span class="grade grade-remarkable">Remarkable</span> | Waist | 0.5.11 | Throwing a grabbed enemy slams them down, dealing 3 physical damage and stunning enemies within a 3 meter radius |
 | ![](../assets/icons/sympathygauntlet.png){ .item-icon-sm } | [Sympathy Gauntlet](sympathygauntlet.md) | <span class="grade grade-chaos">Chaos</span> | Hands | 0.0.0 | Increases physical damage by 75% and you take 10 physical damage whenever you punch enemies |

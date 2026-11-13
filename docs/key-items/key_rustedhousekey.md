@@ -10,7 +10,7 @@
 | Added in version | 0.0.0 |
 | Save id | `key_rustedhousekey` |
 
-**In-game description:** A rusted key that likely goes with a rusty lock somehwere.
+**In-game description:** A rusted key that likely goes with a rusty lock somewhere.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

@@ -12,6 +12,8 @@
 | Save id | `singleguysandal` |
 
 **In-game description:** Increases magical damage by 50%
+
+_Not found in the loot pool; obtained through other means._
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

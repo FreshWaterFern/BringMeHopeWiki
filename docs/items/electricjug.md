@@ -11,7 +11,7 @@
 | Added in version | 0.0.0 |
 | Save id | `electricjug` |
 
-**In-game description:** Every 5th punch deals 15 electric damage that can chain between enemies
+**In-game description:** Every 5th punch deals 8 electric damage that can chain between enemies
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

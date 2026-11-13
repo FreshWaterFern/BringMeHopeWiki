@@ -11,7 +11,7 @@
 | Added in version | 0.5.11 |
 | Save id | `gluttonsheart` |
 
-**In-game description:** Whenever you are healed, gain +20% base damage for 10 seconds.
+**In-game description:** Whenever you are healed, gain +10% base damage for 10 seconds.
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

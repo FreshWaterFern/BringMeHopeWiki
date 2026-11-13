@@ -11,7 +11,7 @@
 | Added in version | 0.0.0 |
 | Save id | `heroesruby` |
 
-**In-game description:** Life steal 2.5 health when you punch a boss
+**In-game description:** Life steal 0.4 health when you punch a boss
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

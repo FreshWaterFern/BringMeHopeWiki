@@ -30,6 +30,7 @@ Rooms:
 - `rm_beyond_1`
 - `rm_beyond_2_0`
 - `rm_beyond_2_1`
+- `rm_beyondarena_0`
 - `rm_intro_0_3_beyond`
 
 ## Crystal Subway
@@ -38,6 +39,7 @@ Rooms:
 
 - `rm_intro_0_4_crystalsubway0`
 - `rm_intro_0_4_crystalsubway0_0`
+- `rm_intro_0_4_crystalsubway0_1`
 - `rm_intro_0_4_crystalsubway1`
 - `rm_intro_0_4_crystalsubway1_0`
 - `rm_intro_0_4_crystalsubway2`
@@ -48,7 +50,9 @@ Rooms:
 
 Rooms:
 
+- `rm_embraforest_0`
 - `rm_forest`
+- `rm_orangeforest_0`
 
 ## Frosted Caves
 
@@ -107,10 +111,17 @@ Rooms:
 - `rm_sandcity_aqueduct_1`
 - `rm_sandcity_aqueduct_2`
 - `rm_sandcity_baba`
+- `rm_sandcity_driveaway`
 - `rm_sandcity_gubgubcaves`
 - `rm_sandcity_home0`
 - `rm_sandcity_home1`
 - `rm_sandcity_home2`
+- `rm_sandcity_home4`
+- `rm_sandcity_sewers0`
+- `rm_sandcity_sewers1`
+- `rm_sandcity_sewers2`
+- `rm_sandcity_watercanal`
+- `rm_wave_sandcity`
 
 ## Sea Elevator Station
 

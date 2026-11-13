@@ -11,7 +11,7 @@
 | Added in version | 0.0.0 |
 | Save id | `lifestealer` |
 
-**In-game description:** Punching an enemy steals 0.5 health
+**In-game description:** Punching an enemy steals 0.2 health
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes

@@ -5,7 +5,7 @@
 
 | Property | Value |
 |---|---|
-| Grade | <span class="grade grade-striking">Striking</span> |
+| Grade | <span class="grade grade-ordinary">Ordinary</span> |
 | Equip slot | Hands |
 | Max stack | 1 |
 | Added in version | 0.0.0 |

@@ -11,7 +11,7 @@
 | Added in version | 0.0.0 |
 | Save id | `lifeborrower` |
 
-**In-game description:** Parrying an enemy steals 2 health
+**In-game description:** Parrying an enemy steals 1 health
 <!-- AUTOGEN:END -->
 
 ## Strategy & Notes
